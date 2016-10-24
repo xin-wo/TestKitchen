@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8A0F790EEA55DC13A77B556F /* Pods_TestKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3B24138A4EC94859A22767 /* Pods_TestKitchen.framework */; };
+		BC49724F1DBDACE6004230CB /* KTCDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC49724E1DBDACE6004230CB /* KTCDownloader.swift */; };
+		BC4972511DBDB6CC004230CB /* IngreRecommondModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4972501DBDB6CC004230CB /* IngreRecommondModel.swift */; };
 		BC8B064D1DB9A51000F5FC0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8B064C1DB9A51000F5FC0A /* AppDelegate.swift */; };
 		BC8B064F1DB9A51000F5FC0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8B064E1DB9A51000F5FC0A /* ViewController.swift */; };
 		BC8B06521DB9A51000F5FC0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8B06501DB9A51000F5FC0A /* Main.storyboard */; };
@@ -615,6 +617,7 @@
 		BC8B10351DB9C6CB00F5FC0A /* 难易度@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8B0DE81DB9C6CB00F5FC0A /* 难易度@3x.png */; };
 		BC8B10361DB9C6CB00F5FC0A /* 首页更多@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8B0DE91DB9C6CB00F5FC0A /* 首页更多@2x.png */; };
 		BC8B10371DB9C6CB00F5FC0A /* 首页更多@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8B0DEA1DB9C6CB00F5FC0A /* 首页更多@3x.png */; };
+		BCF72BA01DBD9BFA00A5A321 /* Controllers.json in Resources */ = {isa = PBXBuildFile; fileRef = BCF72B9F1DBD9BFA00A5A321 /* Controllers.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -638,6 +641,8 @@
 		16947CF4AAECB5BDA899CFBC /* Pods-TestKitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen.release.xcconfig"; sourceTree = "<group>"; };
 		5C3B24138A4EC94859A22767 /* Pods_TestKitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4FB3D58056643BD87BD14B /* Pods-TestKitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen.debug.xcconfig"; sourceTree = "<group>"; };
+		BC49724E1DBDACE6004230CB /* KTCDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTCDownloader.swift; sourceTree = "<group>"; };
+		BC4972501DBDB6CC004230CB /* IngreRecommondModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreRecommondModel.swift; sourceTree = "<group>"; };
 		BC8B06491DB9A51000F5FC0A /* TestKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8B064C1DB9A51000F5FC0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC8B064E1DB9A51000F5FC0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -1255,6 +1260,7 @@
 		BC8B0DE81DB9C6CB00F5FC0A /* 难易度@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "难易度@3x.png"; sourceTree = "<group>"; };
 		BC8B0DE91DB9C6CB00F5FC0A /* 首页更多@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页更多@2x.png"; sourceTree = "<group>"; };
 		BC8B0DEA1DB9C6CB00F5FC0A /* 首页更多@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页更多@3x.png"; sourceTree = "<group>"; };
+		BCF72B9F1DBD9BFA00A5A321 /* Controllers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Controllers.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1377,6 +1383,8 @@
 				BC8B0B8E1DB9BA0300F5FC0A /* UILabel+Common.swift */,
 				BC8B0B901DB9BB8700F5FC0A /* UIButton+Common.swift */,
 				BC8B0B921DB9C38D00F5FC0A /* Const.swift */,
+				BCF72B9F1DBD9BFA00A5A321 /* Controllers.json */,
+				BC49724E1DBDACE6004230CB /* KTCDownloader.swift */,
 			);
 			path = "Common(公共类)";
 			sourceTree = "<group>";
@@ -1524,6 +1532,7 @@
 		BC8B068E1DB9A83000F5FC0A /* model */ = {
 			isa = PBXGroup;
 			children = (
+				BC4972501DBDB6CC004230CB /* IngreRecommondModel.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -3001,6 +3010,7 @@
 				BC8B102C1DB9C6CB00F5FC0A /* 点赞.png in Resources */,
 				BC8B0FA91DB9C6CB00F5FC0A /* UMShareEditViewController.nib in Resources */,
 				BC8B0FAB1DB9C6CB00F5FC0A /* UMSLoginViewController.nib in Resources */,
+				BCF72BA01DBD9BFA00A5A321 /* Controllers.json in Resources */,
 				BC8B100D1DB9C6CB00F5FC0A /* Winning4@2x.png in Resources */,
 				BC8B0EC61DB9C6CB00F5FC0A /* icon_cancel@3x.png in Resources */,
 				BC8B0E581DB9C6CB00F5FC0A /* chatBar_more_faceSelected@2x.png in Resources */,
@@ -3090,6 +3100,8 @@
 				BC8B06A81DB9AA0500F5FC0A /* CommunityViewController.swift in Sources */,
 				BC8B06AE1DB9AA7500F5FC0A /* ProfileViewController.swift in Sources */,
 				BC8B0B911DB9BB8700F5FC0A /* UIButton+Common.swift in Sources */,
+				BC49724F1DBDACE6004230CB /* KTCDownloader.swift in Sources */,
+				BC4972511DBDB6CC004230CB /* IngreRecommondModel.swift in Sources */,
 				BC8B06A41DB9A91700F5FC0A /* BaseViewController.swift in Sources */,
 				BC8B0B931DB9C38D00F5FC0A /* Const.swift in Sources */,
 			);
@@ -3254,6 +3266,7 @@
 			baseConfigurationReference = 7E4FB3D58056643BD87BD14B /* Pods-TestKitchen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TestKitchen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wx.TestKitchen;
@@ -3266,6 +3279,7 @@
 			baseConfigurationReference = 16947CF4AAECB5BDA899CFBC /* Pods-TestKitchen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TestKitchen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wx.TestKitchen;

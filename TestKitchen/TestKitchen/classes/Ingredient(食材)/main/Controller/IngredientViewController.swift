@@ -13,9 +13,22 @@ class IngredientViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        downloadRecommendData()
         
     }
+    //下载首页的推荐数据
+    func downloadRecommendData() {
+        let params = ["methodName":"SceneHome", "token":"", "user_id":"", "version":"4.5"]
+        
+        
+        let downloader = KTCDownloader()
+        downloader.delegate = self
+        downloader.postWithUrl(kHostUrl, params: params)
+        
+    }
+    
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -34,3 +47,19 @@ class IngredientViewController: BaseViewController {
     */
 
 }
+//MARK: KTCDownloader代理方法
+extension IngredientViewController: KTCDownloaderDelegate {
+    func downloader(downloader: KTCDownloader, didFailWithError error: NSError) {
+        print(error)
+    }
+    
+    func downloader(downloader: KTCDownloader, didFinishWithData data: NSData?) {
+        let str = NSString(data: data!, encoding: NSUTF8StringEncoding)
+        
+        
+    }
+    
+}
+
+
+
