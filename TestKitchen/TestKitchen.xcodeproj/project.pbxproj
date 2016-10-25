@@ -10,6 +10,11 @@
 		8A0F790EEA55DC13A77B556F /* Pods_TestKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3B24138A4EC94859A22767 /* Pods_TestKitchen.framework */; };
 		BC49724F1DBDACE6004230CB /* KTCDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC49724E1DBDACE6004230CB /* KTCDownloader.swift */; };
 		BC4972511DBDB6CC004230CB /* IngreRecommondModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4972501DBDB6CC004230CB /* IngreRecommondModel.swift */; };
+		BC6055011DBEED3F00082746 /* IngreRecomendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6055001DBEED3F00082746 /* IngreRecomendView.swift */; };
+		BC6055041DBEF39D00082746 /* IngreBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6055021DBEF39D00082746 /* IngreBannerCell.swift */; };
+		BC6055051DBEF39D00082746 /* IngreBannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC6055031DBEF39D00082746 /* IngreBannerCell.xib */; };
+		BC6055081DBF09E400082746 /* IngreLikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6055061DBF09E400082746 /* IngreLikeCell.swift */; };
+		BC6055091DBF09E400082746 /* IngreLikeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC6055071DBF09E400082746 /* IngreLikeCell.xib */; };
 		BC8B064D1DB9A51000F5FC0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8B064C1DB9A51000F5FC0A /* AppDelegate.swift */; };
 		BC8B064F1DB9A51000F5FC0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8B064E1DB9A51000F5FC0A /* ViewController.swift */; };
 		BC8B06521DB9A51000F5FC0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8B06501DB9A51000F5FC0A /* Main.storyboard */; };
@@ -643,6 +648,11 @@
 		7E4FB3D58056643BD87BD14B /* Pods-TestKitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen.debug.xcconfig"; sourceTree = "<group>"; };
 		BC49724E1DBDACE6004230CB /* KTCDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTCDownloader.swift; sourceTree = "<group>"; };
 		BC4972501DBDB6CC004230CB /* IngreRecommondModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreRecommondModel.swift; sourceTree = "<group>"; };
+		BC6055001DBEED3F00082746 /* IngreRecomendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreRecomendView.swift; sourceTree = "<group>"; };
+		BC6055021DBEF39D00082746 /* IngreBannerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreBannerCell.swift; sourceTree = "<group>"; };
+		BC6055031DBEF39D00082746 /* IngreBannerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreBannerCell.xib; sourceTree = "<group>"; };
+		BC6055061DBF09E400082746 /* IngreLikeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreLikeCell.swift; sourceTree = "<group>"; };
+		BC6055071DBF09E400082746 /* IngreLikeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreLikeCell.xib; sourceTree = "<group>"; };
 		BC8B06491DB9A51000F5FC0A /* TestKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8B064C1DB9A51000F5FC0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC8B064E1DB9A51000F5FC0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -1540,6 +1550,7 @@
 		BC8B068F1DB9A83000F5FC0A /* view */ = {
 			isa = PBXGroup;
 			children = (
+				BC6055001DBEED3F00082746 /* IngreRecomendView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1602,6 +1613,10 @@
 		BC8B06971DB9A83000F5FC0A /* view */ = {
 			isa = PBXGroup;
 			children = (
+				BC6055021DBEF39D00082746 /* IngreBannerCell.swift */,
+				BC6055031DBEF39D00082746 /* IngreBannerCell.xib */,
+				BC6055061DBF09E400082746 /* IngreLikeCell.swift */,
+				BC6055071DBF09E400082746 /* IngreLikeCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -2557,6 +2572,7 @@
 				BC8B0FBD1DB9C6CB00F5FC0A /* UserPhoneLoginViewController~iphone.nib in Resources */,
 				BC8B0FA21DB9C6CB00F5FC0A /* umeng_fb_audio_play_02@2x.png in Resources */,
 				BC8B0F9B1DB9C6CB00F5FC0A /* Ui03.png in Resources */,
+				BC6055051DBEF39D00082746 /* IngreBannerCell.xib in Resources */,
 				BC8B0ED41DB9C6CB00F5FC0A /* icon_sina@3x.png in Resources */,
 				BC8B0EBB1DB9C6CB00F5FC0A /* home_normal@3x.png in Resources */,
 				BC8B0F761DB9C6CB00F5FC0A /* shop_normal@3x.png in Resources */,
@@ -2750,6 +2766,7 @@
 				BC8B0F6E1DB9C6CB00F5FC0A /* sharedImage.png in Resources */,
 				BC8B0E231DB9C6CB00F5FC0A /* chat_receiver_audio_playing002@2x.png in Resources */,
 				BC8B0F401DB9C6CB00F5FC0A /* PushConfig.plist in Resources */,
+				BC6055091DBF09E400082746 /* IngreLikeCell.xib in Resources */,
 				BC8B10191DB9C6CB00F5FC0A /* 举报.png in Resources */,
 				BC8B0FF41DB9C6CB00F5FC0A /* watermark10.png in Resources */,
 				BC8B10011DB9C6CB00F5FC0A /* WebViewJavascriptBridge.js.txt in Resources */,
@@ -3090,6 +3107,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC8B064F1DB9A51000F5FC0A /* ViewController.swift in Sources */,
+				BC6055041DBEF39D00082746 /* IngreBannerCell.swift in Sources */,
 				BC8B0B8D1DB9B98000F5FC0A /* UIView+Common.swift in Sources */,
 				BC8B06AC1DB9AA5800F5FC0A /* FoodClassViewController.swift in Sources */,
 				BC8B06A61DB9A9D500F5FC0A /* IngredientViewController.swift in Sources */,
@@ -3100,10 +3118,12 @@
 				BC8B06A81DB9AA0500F5FC0A /* CommunityViewController.swift in Sources */,
 				BC8B06AE1DB9AA7500F5FC0A /* ProfileViewController.swift in Sources */,
 				BC8B0B911DB9BB8700F5FC0A /* UIButton+Common.swift in Sources */,
+				BC6055081DBF09E400082746 /* IngreLikeCell.swift in Sources */,
 				BC49724F1DBDACE6004230CB /* KTCDownloader.swift in Sources */,
 				BC4972511DBDB6CC004230CB /* IngreRecommondModel.swift in Sources */,
 				BC8B06A41DB9A91700F5FC0A /* BaseViewController.swift in Sources */,
 				BC8B0B931DB9C38D00F5FC0A /* Const.swift in Sources */,
+				BC6055011DBEED3F00082746 /* IngreRecomendView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

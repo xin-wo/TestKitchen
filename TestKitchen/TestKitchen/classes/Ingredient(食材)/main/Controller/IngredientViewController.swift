@@ -12,14 +12,14 @@ class IngredientViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+    
+        automaticallyAdjustsScrollViewInsets = false
         downloadRecommendData()
         
     }
     //下载首页的推荐数据
     func downloadRecommendData() {
         let params = ["methodName":"SceneHome", "token":"", "user_id":"", "version":"4.5"]
-        
         
         let downloader = KTCDownloader()
         downloader.delegate = self
@@ -54,7 +54,24 @@ extension IngredientViewController: KTCDownloaderDelegate {
     }
     
     func downloader(downloader: KTCDownloader, didFinishWithData data: NSData?) {
-        let str = NSString(data: data!, encoding: NSUTF8StringEncoding)
+//        let str = NSString(data: data!, encoding: NSUTF8StringEncoding)
+        if let tmpData = data {
+            let recommendModel = IngreRecommondModel.parseData(tmpData)
+//            print("========")
+            //2.显示UI
+//            print(NSThread.currentThread())
+            let recomendView = IngreRecomendView(frame: CGRectZero)
+            recomendView.model = recommendModel
+            view.addSubview(recomendView)
+            
+            //约束
+            recomendView.snp_makeConstraints(closure: { (make) in
+                make.edges.equalTo(self.view).inset(UIEdgeInsetsMake(64, 0, 49, 0))
+            })
+            
+        }
+        
+        
         
         
     }
