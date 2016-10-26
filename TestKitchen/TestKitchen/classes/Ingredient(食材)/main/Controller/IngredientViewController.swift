@@ -9,7 +9,8 @@
 import UIKit
 
 class IngredientViewController: BaseViewController {
-
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     
@@ -55,6 +56,7 @@ extension IngredientViewController: KTCDownloaderDelegate {
     
     func downloader(downloader: KTCDownloader, didFinishWithData data: NSData?) {
 //        let str = NSString(data: data!, encoding: NSUTF8StringEncoding)
+//        print(str!)
         if let tmpData = data {
             let recommendModel = IngreRecommondModel.parseData(tmpData)
 //            print("========")
@@ -63,6 +65,12 @@ extension IngredientViewController: KTCDownloaderDelegate {
             let recomendView = IngreRecomendView(frame: CGRectZero)
             recomendView.model = recommendModel
             view.addSubview(recomendView)
+
+            //点击cell上的图片，跳转界面
+            recomendView.jumpClosure = {
+                jumpUrl in
+                print(jumpUrl)
+            }
             
             //约束
             recomendView.snp_makeConstraints(closure: { (make) in

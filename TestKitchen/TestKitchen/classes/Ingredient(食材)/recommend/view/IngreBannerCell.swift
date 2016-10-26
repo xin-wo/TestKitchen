@@ -11,6 +11,8 @@ import UIKit
 
 class IngreBannerCell: UITableViewCell {
 
+    var jumpClosure: IngreJumpClosure?
+    
     @IBOutlet weak var scrollView: UIScrollView!
     
     @IBOutlet weak var pageCtrl: UIPageControl!
@@ -48,6 +50,12 @@ class IngreBannerCell: UITableViewCell {
 //                tmpImageView.kf_setImageWithURL(NSURL(string: model.banner_picture))
                 tmpImageView.kf_setImageWithURL(NSURL(string: model.banner_picture), placeholderImage: UIImage(named: "sdefaultImage"), optionsInfo: nil, progressBlock: nil, completionHandler: nil)
                 containerView.addSubview(tmpImageView)
+                //添加点击事件
+                tmpImageView.userInteractionEnabled = true
+                tmpImageView.tag = 200 + i
+                let g = UITapGestureRecognizer(target: self, action: #selector(tapImage(_:)))
+                tmpImageView.addGestureRecognizer(g)
+                
                 //图片的约束
                 tmpImageView.snp_makeConstraints(closure: { (make) in
                     make.top.bottom.equalTo(containerView)
@@ -70,17 +78,34 @@ class IngreBannerCell: UITableViewCell {
         }
     }
     
+    func tapImage(g: UITapGestureRecognizer) {
+        let index = (g.view?.tag)! - 200
+        //获取点击的数据
+        let banner = bannerArray[index]
+        if jumpClosure != nil && banner.banner_link != nil {
+            jumpClosure!(banner.banner_link)
+        }
+        
+        
+        
+    }
+    
     
     // 创建cell的方法
     class func createBannerCellFor(tableView: UITableView, atIndexPath indexPath: NSIndexPath, bannerArray: Array<IngreRecommondBannerModel>?) -> IngreBannerCell {
+        //重用标志
+        let cellId = "ingreBannerCellId"
         
-        var cell = tableView.dequeueReusableCellWithIdentifier("ingreBannerCellId", forIndexPath: indexPath) as! IngreBannerCell
-//        if cell == nil {
-            cell = NSBundle.mainBundle().loadNibNamed("IngreBannerCell", owner: nil, options: nil).last as! IngreBannerCell
-//        }
+        var cell = tableView.dequeueReusableCellWithIdentifier(cellId) as? IngreBannerCell
+        if nil == cell {
+            //IngreBannerCell.xib
+            cell = NSBundle.mainBundle().loadNibNamed("IngreBannerCell", owner: nil, options: nil).last as? IngreBannerCell
+        }
         
-        cell.bannerArray = bannerArray
-        return cell
+        //显示数据
+        cell?.bannerArray = bannerArray
+        
+        return cell!
     }
     
     override func awakeFromNib() {
@@ -94,7 +119,7 @@ class IngreBannerCell: UITableViewCell {
         
     }
     
-
+    
     
 }
 //MARK: UIScrollView代理

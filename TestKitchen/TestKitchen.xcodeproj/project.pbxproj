@@ -15,6 +15,9 @@
 		BC6055051DBEF39D00082746 /* IngreBannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC6055031DBEF39D00082746 /* IngreBannerCell.xib */; };
 		BC6055081DBF09E400082746 /* IngreLikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6055061DBF09E400082746 /* IngreLikeCell.swift */; };
 		BC6055091DBF09E400082746 /* IngreLikeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC6055071DBF09E400082746 /* IngreLikeCell.xib */; };
+		BC81C9321DC0537A00BEAC9C /* IngreLikeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC81C9311DC0537A00BEAC9C /* IngreLikeHeaderView.swift */; };
+		BC81C9351DC0598100BEAC9C /* IngreRedPacketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC81C9331DC0598100BEAC9C /* IngreRedPacketCell.swift */; };
+		BC81C9361DC0598100BEAC9C /* IngreRedPacketCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC81C9341DC0598100BEAC9C /* IngreRedPacketCell.xib */; };
 		BC8B064D1DB9A51000F5FC0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8B064C1DB9A51000F5FC0A /* AppDelegate.swift */; };
 		BC8B064F1DB9A51000F5FC0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8B064E1DB9A51000F5FC0A /* ViewController.swift */; };
 		BC8B06521DB9A51000F5FC0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8B06501DB9A51000F5FC0A /* Main.storyboard */; };
@@ -653,6 +656,9 @@
 		BC6055031DBEF39D00082746 /* IngreBannerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreBannerCell.xib; sourceTree = "<group>"; };
 		BC6055061DBF09E400082746 /* IngreLikeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreLikeCell.swift; sourceTree = "<group>"; };
 		BC6055071DBF09E400082746 /* IngreLikeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreLikeCell.xib; sourceTree = "<group>"; };
+		BC81C9311DC0537A00BEAC9C /* IngreLikeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreLikeHeaderView.swift; sourceTree = "<group>"; };
+		BC81C9331DC0598100BEAC9C /* IngreRedPacketCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreRedPacketCell.swift; sourceTree = "<group>"; };
+		BC81C9341DC0598100BEAC9C /* IngreRedPacketCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreRedPacketCell.xib; sourceTree = "<group>"; };
 		BC8B06491DB9A51000F5FC0A /* TestKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8B064C1DB9A51000F5FC0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC8B064E1DB9A51000F5FC0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -1617,6 +1623,9 @@
 				BC6055031DBEF39D00082746 /* IngreBannerCell.xib */,
 				BC6055061DBF09E400082746 /* IngreLikeCell.swift */,
 				BC6055071DBF09E400082746 /* IngreLikeCell.xib */,
+				BC81C9311DC0537A00BEAC9C /* IngreLikeHeaderView.swift */,
+				BC81C9331DC0598100BEAC9C /* IngreRedPacketCell.swift */,
+				BC81C9341DC0598100BEAC9C /* IngreRedPacketCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -2482,6 +2491,7 @@
 				BC8B10001DB9C6CB00F5FC0A /* WebViewController.nib in Resources */,
 				BC8B0EAF1DB9C6CB00F5FC0A /* forward_disable@2x.png in Resources */,
 				BC8B0E641DB9C6CB00F5FC0A /* chatBar_record@2x.png in Resources */,
+				BC81C9361DC0598100BEAC9C /* IngreRedPacketCell.xib in Resources */,
 				BC8B0F4D1DB9C6CB00F5FC0A /* RightTableViewCell~iphone.nib in Resources */,
 				BC8B0F3B1DB9C6CB00F5FC0A /* praise@2x.png in Resources */,
 				BC8B0F3F1DB9C6CB00F5FC0A /* push@3x.png in Resources */,
@@ -3106,8 +3116,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC81C9321DC0537A00BEAC9C /* IngreLikeHeaderView.swift in Sources */,
 				BC8B064F1DB9A51000F5FC0A /* ViewController.swift in Sources */,
 				BC6055041DBEF39D00082746 /* IngreBannerCell.swift in Sources */,
+				BC81C9351DC0598100BEAC9C /* IngreRedPacketCell.swift in Sources */,
 				BC8B0B8D1DB9B98000F5FC0A /* UIView+Common.swift in Sources */,
 				BC8B06AC1DB9AA5800F5FC0A /* FoodClassViewController.swift in Sources */,
 				BC8B06A61DB9A9D500F5FC0A /* IngredientViewController.swift in Sources */,
