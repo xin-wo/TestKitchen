@@ -626,6 +626,9 @@
 		BC8B10361DB9C6CB00F5FC0A /* 首页更多@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8B0DE91DB9C6CB00F5FC0A /* 首页更多@2x.png */; };
 		BC8B10371DB9C6CB00F5FC0A /* 首页更多@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8B0DEA1DB9C6CB00F5FC0A /* 首页更多@3x.png */; };
 		BCF72BA01DBD9BFA00A5A321 /* Controllers.json in Resources */ = {isa = PBXBuildFile; fileRef = BCF72B9F1DBD9BFA00A5A321 /* Controllers.json */; };
+		BCF993911DC19561002820F3 /* IngreTodayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF9938F1DC19561002820F3 /* IngreTodayCell.swift */; };
+		BCF993921DC19561002820F3 /* IngreTodayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF993901DC19561002820F3 /* IngreTodayCell.xib */; };
+		BCF993941DC1AF69002820F3 /* IngreHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF993931DC1AF69002820F3 /* IngreHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1277,6 +1280,9 @@
 		BC8B0DE91DB9C6CB00F5FC0A /* 首页更多@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页更多@2x.png"; sourceTree = "<group>"; };
 		BC8B0DEA1DB9C6CB00F5FC0A /* 首页更多@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页更多@3x.png"; sourceTree = "<group>"; };
 		BCF72B9F1DBD9BFA00A5A321 /* Controllers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Controllers.json; sourceTree = "<group>"; };
+		BCF9938F1DC19561002820F3 /* IngreTodayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreTodayCell.swift; sourceTree = "<group>"; };
+		BCF993901DC19561002820F3 /* IngreTodayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreTodayCell.xib; sourceTree = "<group>"; };
+		BCF993931DC1AF69002820F3 /* IngreHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1626,6 +1632,9 @@
 				BC81C9311DC0537A00BEAC9C /* IngreLikeHeaderView.swift */,
 				BC81C9331DC0598100BEAC9C /* IngreRedPacketCell.swift */,
 				BC81C9341DC0598100BEAC9C /* IngreRedPacketCell.xib */,
+				BCF9938F1DC19561002820F3 /* IngreTodayCell.swift */,
+				BCF993901DC19561002820F3 /* IngreTodayCell.xib */,
+				BCF993931DC1AF69002820F3 /* IngreHeaderView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -2515,6 +2524,7 @@
 				BC8B0E1C1DB9C6CB00F5FC0A /* chat_location_preview.png in Resources */,
 				BC8B0EED1DB9C6CB00F5FC0A /* love_Play_Icon31@2x.png in Resources */,
 				BC8B0E691DB9C6CB00F5FC0A /* chatBar_recordSelectedBg.png in Resources */,
+				BCF993921DC19561002820F3 /* IngreTodayCell.xib in Resources */,
 				BC8B0EF61DB9C6CB00F5FC0A /* material_cancel@3x.png in Resources */,
 				BC8B0FCF1DB9C6CB00F5FC0A /* VoiceSearchFeedback003.png in Resources */,
 				BC8B0E031DB9C6CB00F5FC0A /* BasicViewController.nib in Resources */,
@@ -3121,6 +3131,7 @@
 				BC6055041DBEF39D00082746 /* IngreBannerCell.swift in Sources */,
 				BC81C9351DC0598100BEAC9C /* IngreRedPacketCell.swift in Sources */,
 				BC8B0B8D1DB9B98000F5FC0A /* UIView+Common.swift in Sources */,
+				BCF993911DC19561002820F3 /* IngreTodayCell.swift in Sources */,
 				BC8B06AC1DB9AA5800F5FC0A /* FoodClassViewController.swift in Sources */,
 				BC8B06A61DB9A9D500F5FC0A /* IngredientViewController.swift in Sources */,
 				BC8B06B21DB9ABFF00F5FC0A /* MainTabBarViewController.swift in Sources */,
@@ -3136,6 +3147,7 @@
 				BC8B06A41DB9A91700F5FC0A /* BaseViewController.swift in Sources */,
 				BC8B0B931DB9C38D00F5FC0A /* Const.swift in Sources */,
 				BC6055011DBEED3F00082746 /* IngreRecomendView.swift in Sources */,
+				BCF993941DC1AF69002820F3 /* IngreHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
