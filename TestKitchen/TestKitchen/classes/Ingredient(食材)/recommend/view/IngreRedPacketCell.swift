@@ -68,7 +68,7 @@ class IngreRedPacketCell: UITableViewCell {
                             make.width.equalTo(210)
                         if i == 0 {
                             //            //将滚动视图显示在中间
-                            let x = CGFloat(210*cnt!) - (scrollView.bounds.size.width)/2
+//                            let x = CGFloat(210*cnt!) - (scrollView.bounds.size.width)/2
                             make.left.equalTo(containerView!)
                             
                         } else {
