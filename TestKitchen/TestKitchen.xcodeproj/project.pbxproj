@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8A0F790EEA55DC13A77B556F /* Pods_TestKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3B24138A4EC94859A22767 /* Pods_TestKitchen.framework */; };
+		BC000BC41DC6D0E70086D1FB /* IngreTalnetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC000BC21DC6D0E70086D1FB /* IngreTalnetCell.swift */; };
+		BC000BC51DC6D0E70086D1FB /* IngreTalnetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC000BC31DC6D0E70086D1FB /* IngreTalnetCell.xib */; };
+		BC000BC81DC6DD480086D1FB /* IngrePostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC000BC61DC6DD480086D1FB /* IngrePostCell.swift */; };
+		BC000BC91DC6DD480086D1FB /* IngrePostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC000BC71DC6DD480086D1FB /* IngrePostCell.xib */; };
 		BC3514851DC2F034000A978C /* CodeResources in Resources */ = {isa = PBXBuildFile; fileRef = BC3512301DC2F032000A978C /* CodeResources */; };
 		BC3514861DC2F034000A978C /* activity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3512311DC2F032000A978C /* activity@3x.png */; };
 		BC3514871DC2F034000A978C /* agree@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3512321DC2F032000A978C /* agree@2x.png */; };
@@ -656,6 +660,10 @@
 		16947CF4AAECB5BDA899CFBC /* Pods-TestKitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen.release.xcconfig"; sourceTree = "<group>"; };
 		5C3B24138A4EC94859A22767 /* Pods_TestKitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4FB3D58056643BD87BD14B /* Pods-TestKitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen.debug.xcconfig"; sourceTree = "<group>"; };
+		BC000BC21DC6D0E70086D1FB /* IngreTalnetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreTalnetCell.swift; sourceTree = "<group>"; };
+		BC000BC31DC6D0E70086D1FB /* IngreTalnetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreTalnetCell.xib; sourceTree = "<group>"; };
+		BC000BC61DC6DD480086D1FB /* IngrePostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngrePostCell.swift; sourceTree = "<group>"; };
+		BC000BC71DC6DD480086D1FB /* IngrePostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngrePostCell.xib; sourceTree = "<group>"; };
 		BC3512301DC2F032000A978C /* CodeResources */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CodeResources; sourceTree = "<group>"; };
 		BC3512311DC2F032000A978C /* activity@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "activity@3x.png"; sourceTree = "<group>"; };
 		BC3512321DC2F032000A978C /* agree@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "agree@2x.png"; sourceTree = "<group>"; };
@@ -2331,6 +2339,10 @@
 				BCF993931DC1AF69002820F3 /* IngreHeaderView.swift */,
 				BCE339F41DC300DD006D1A38 /* IngreSceneListCell.swift */,
 				BCE339F51DC300DD006D1A38 /* IngreSceneListCell.xib */,
+				BC000BC21DC6D0E70086D1FB /* IngreTalnetCell.swift */,
+				BC000BC31DC6D0E70086D1FB /* IngreTalnetCell.xib */,
+				BC000BC61DC6DD480086D1FB /* IngrePostCell.swift */,
+				BC000BC71DC6DD480086D1FB /* IngrePostCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -2566,6 +2578,7 @@
 				BC3515371DC2F034000A978C /* EffectCollectionController~iphone.nib in Resources */,
 				BC3515E71DC2F034000A978C /* RightTableViewCell~iphone.nib in Resources */,
 				BC3515E41DC2F034000A978C /* report_select@3x.png in Resources */,
+				BC000BC51DC6D0E70086D1FB /* IngreTalnetCell.xib in Resources */,
 				BC35149D1DC2F034000A978C /* BasicViewController.nib in Resources */,
 				BC3516BE1DC2F034000A978C /* 启动图1242x2208.png in Resources */,
 				BC3515571DC2F034000A978C /* home_select@3x.png in Resources */,
@@ -2952,6 +2965,7 @@
 				BC3515161DC2F034000A978C /* collect_icon_notpress@3x.png in Resources */,
 				BC3515561DC2F034000A978C /* home_select@2x.png in Resources */,
 				BC3516C91DC2F034000A978C /* 评论@2x.png in Resources */,
+				BC000BC91DC6DD480086D1FB /* IngrePostCell.xib in Resources */,
 				BC3516A81DC2F034000A978C /* Winning4@3x.png in Resources */,
 				BC3515F41DC2F034000A978C /* SceneHeadView~iphone.nib in Resources */,
 				BC3514EE1DC2F034000A978C /* chatBar_more_cardSelected@2x.png in Resources */,
@@ -3213,6 +3227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC81C9321DC0537A00BEAC9C /* IngreLikeHeaderView.swift in Sources */,
+				BC000BC41DC6D0E70086D1FB /* IngreTalnetCell.swift in Sources */,
 				BC8B064F1DB9A51000F5FC0A /* ViewController.swift in Sources */,
 				BC6055041DBEF39D00082746 /* IngreBannerCell.swift in Sources */,
 				BC81C9351DC0598100BEAC9C /* IngreRedPacketCell.swift in Sources */,
@@ -3228,6 +3243,7 @@
 				BC8B064D1DB9A51000F5FC0A /* AppDelegate.swift in Sources */,
 				BC8B06A81DB9AA0500F5FC0A /* CommunityViewController.swift in Sources */,
 				BC8B06AE1DB9AA7500F5FC0A /* ProfileViewController.swift in Sources */,
+				BC000BC81DC6DD480086D1FB /* IngrePostCell.swift in Sources */,
 				BC8B0B911DB9BB8700F5FC0A /* UIButton+Common.swift in Sources */,
 				BC6055081DBF09E400082746 /* IngreLikeCell.swift in Sources */,
 				BC49724F1DBDACE6004230CB /* KTCDownloader.swift in Sources */,

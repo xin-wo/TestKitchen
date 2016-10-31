@@ -14,12 +14,6 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqy-iC-rC9">
-                        <rect key="frame" x="60" y="20" width="128" height="19"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        <nil key="highlightedColor"/>
-                    </label>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="more_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="9J3-jJ-p2f">
                         <rect key="frame" x="208" y="15" width="32" height="32"/>
                         <constraints>
@@ -27,6 +21,12 @@
                             <constraint firstAttribute="height" constant="32" id="IWK-Jn-IlB"/>
                         </constraints>
                     </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqy-iC-rC9">
+                        <rect key="frame" x="60" y="20" width="128" height="19"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
                     <constraint firstItem="9J3-jJ-p2f" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="IUx-pZ-pLt"/>
@@ -40,6 +40,7 @@
             <connections>
                 <outlet property="titleLabel" destination="rqy-iC-rC9" id="UCV-ph-Q2U"/>
             </connections>
+            <point key="canvasLocation" x="152" y="271"/>
         </tableViewCell>
     </objects>
     <resources>
