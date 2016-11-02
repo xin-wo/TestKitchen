@@ -12,6 +12,8 @@
 		BC000BC51DC6D0E70086D1FB /* IngreTalnetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC000BC31DC6D0E70086D1FB /* IngreTalnetCell.xib */; };
 		BC000BC81DC6DD480086D1FB /* IngrePostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC000BC61DC6DD480086D1FB /* IngrePostCell.swift */; };
 		BC000BC91DC6DD480086D1FB /* IngrePostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC000BC71DC6DD480086D1FB /* IngrePostCell.xib */; };
+		BC33954E1DC9803A00114D4A /* IngreMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33954D1DC9803A00114D4A /* IngreMaterial.swift */; };
+		BC3395501DC990B600114D4A /* IngreMaterialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33954F1DC990B600114D4A /* IngreMaterialCell.swift */; };
 		BC3514851DC2F034000A978C /* CodeResources in Resources */ = {isa = PBXBuildFile; fileRef = BC3512301DC2F032000A978C /* CodeResources */; };
 		BC3514861DC2F034000A978C /* activity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3512311DC2F032000A978C /* activity@3x.png */; };
 		BC3514871DC2F034000A978C /* agree@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3512321DC2F032000A978C /* agree@2x.png */; };
@@ -603,6 +605,10 @@
 		BC3516D11DC2F034000A978C /* 首页更多@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3514841DC2F034000A978C /* 首页更多@3x.png */; };
 		BC3516D41DC2F190000A978C /* IngreSceneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3516D21DC2F190000A978C /* IngreSceneCell.swift */; };
 		BC3516D51DC2F190000A978C /* IngreSceneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC3516D31DC2F190000A978C /* IngreSceneCell.xib */; };
+		BC3642241DC8215A0032BAE2 /* IngreTopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3642221DC8215A0032BAE2 /* IngreTopicCell.swift */; };
+		BC3642251DC8215A0032BAE2 /* IngreTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC3642231DC8215A0032BAE2 /* IngreTopicCell.xib */; };
+		BC3642271DC839720032BAE2 /* KTCSegCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3642261DC839720032BAE2 /* KTCSegCtrl.swift */; };
+		BC3642291DC842890032BAE2 /* IngreMaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3642281DC842890032BAE2 /* IngreMaterialView.swift */; };
 		BC49724F1DBDACE6004230CB /* KTCDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC49724E1DBDACE6004230CB /* KTCDownloader.swift */; };
 		BC4972511DBDB6CC004230CB /* IngreRecommondModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4972501DBDB6CC004230CB /* IngreRecommondModel.swift */; };
 		BC6055011DBEED3F00082746 /* IngreRecomendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6055001DBEED3F00082746 /* IngreRecomendView.swift */; };
@@ -664,6 +670,8 @@
 		BC000BC31DC6D0E70086D1FB /* IngreTalnetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreTalnetCell.xib; sourceTree = "<group>"; };
 		BC000BC61DC6DD480086D1FB /* IngrePostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngrePostCell.swift; sourceTree = "<group>"; };
 		BC000BC71DC6DD480086D1FB /* IngrePostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngrePostCell.xib; sourceTree = "<group>"; };
+		BC33954D1DC9803A00114D4A /* IngreMaterial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreMaterial.swift; sourceTree = "<group>"; };
+		BC33954F1DC990B600114D4A /* IngreMaterialCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreMaterialCell.swift; sourceTree = "<group>"; };
 		BC3512301DC2F032000A978C /* CodeResources */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CodeResources; sourceTree = "<group>"; };
 		BC3512311DC2F032000A978C /* activity@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "activity@3x.png"; sourceTree = "<group>"; };
 		BC3512321DC2F032000A978C /* agree@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "agree@2x.png"; sourceTree = "<group>"; };
@@ -1259,6 +1267,10 @@
 		BC3514841DC2F034000A978C /* 首页更多@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页更多@3x.png"; sourceTree = "<group>"; };
 		BC3516D21DC2F190000A978C /* IngreSceneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreSceneCell.swift; sourceTree = "<group>"; };
 		BC3516D31DC2F190000A978C /* IngreSceneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreSceneCell.xib; sourceTree = "<group>"; };
+		BC3642221DC8215A0032BAE2 /* IngreTopicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreTopicCell.swift; sourceTree = "<group>"; };
+		BC3642231DC8215A0032BAE2 /* IngreTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreTopicCell.xib; sourceTree = "<group>"; };
+		BC3642261DC839720032BAE2 /* KTCSegCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTCSegCtrl.swift; sourceTree = "<group>"; };
+		BC3642281DC842890032BAE2 /* IngreMaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreMaterialView.swift; sourceTree = "<group>"; };
 		BC49724E1DBDACE6004230CB /* KTCDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTCDownloader.swift; sourceTree = "<group>"; };
 		BC4972501DBDB6CC004230CB /* IngreRecommondModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreRecommondModel.swift; sourceTree = "<group>"; };
 		BC6055001DBEED3F00082746 /* IngreRecomendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreRecomendView.swift; sourceTree = "<group>"; };
@@ -2107,6 +2119,7 @@
 				BC8B0B921DB9C38D00F5FC0A /* Const.swift */,
 				BCF72B9F1DBD9BFA00A5A321 /* Controllers.json */,
 				BC49724E1DBDACE6004230CB /* KTCDownloader.swift */,
+				BC3642261DC839720032BAE2 /* KTCSegCtrl.swift */,
 			);
 			path = "Common(公共类)";
 			sourceTree = "<group>";
@@ -2287,6 +2300,7 @@
 		BC8B06921DB9A83000F5FC0A /* model */ = {
 			isa = PBXGroup;
 			children = (
+				BC33954D1DC9803A00114D4A /* IngreMaterial.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -2294,6 +2308,8 @@
 		BC8B06931DB9A83000F5FC0A /* view */ = {
 			isa = PBXGroup;
 			children = (
+				BC3642281DC842890032BAE2 /* IngreMaterialView.swift */,
+				BC33954F1DC990B600114D4A /* IngreMaterialCell.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -2343,6 +2359,8 @@
 				BC000BC31DC6D0E70086D1FB /* IngreTalnetCell.xib */,
 				BC000BC61DC6DD480086D1FB /* IngrePostCell.swift */,
 				BC000BC71DC6DD480086D1FB /* IngrePostCell.xib */,
+				BC3642221DC8215A0032BAE2 /* IngreTopicCell.swift */,
+				BC3642231DC8215A0032BAE2 /* IngreTopicCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -2964,6 +2982,7 @@
 				BC3515E81DC2F034000A978C /* roleSelectionCanceled@2x.png in Resources */,
 				BC3515161DC2F034000A978C /* collect_icon_notpress@3x.png in Resources */,
 				BC3515561DC2F034000A978C /* home_select@2x.png in Resources */,
+				BC3642251DC8215A0032BAE2 /* IngreTopicCell.xib in Resources */,
 				BC3516C91DC2F034000A978C /* 评论@2x.png in Resources */,
 				BC000BC91DC6DD480086D1FB /* IngrePostCell.xib in Resources */,
 				BC3516A81DC2F034000A978C /* Winning4@3x.png in Resources */,
@@ -3226,11 +3245,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC3642291DC842890032BAE2 /* IngreMaterialView.swift in Sources */,
 				BC81C9321DC0537A00BEAC9C /* IngreLikeHeaderView.swift in Sources */,
 				BC000BC41DC6D0E70086D1FB /* IngreTalnetCell.swift in Sources */,
 				BC8B064F1DB9A51000F5FC0A /* ViewController.swift in Sources */,
 				BC6055041DBEF39D00082746 /* IngreBannerCell.swift in Sources */,
 				BC81C9351DC0598100BEAC9C /* IngreRedPacketCell.swift in Sources */,
+				BC3395501DC990B600114D4A /* IngreMaterialCell.swift in Sources */,
 				BC8B0B8D1DB9B98000F5FC0A /* UIView+Common.swift in Sources */,
 				BCF993911DC19561002820F3 /* IngreTodayCell.swift in Sources */,
 				BC8B06AC1DB9AA5800F5FC0A /* FoodClassViewController.swift in Sources */,
@@ -3243,10 +3264,13 @@
 				BC8B064D1DB9A51000F5FC0A /* AppDelegate.swift in Sources */,
 				BC8B06A81DB9AA0500F5FC0A /* CommunityViewController.swift in Sources */,
 				BC8B06AE1DB9AA7500F5FC0A /* ProfileViewController.swift in Sources */,
+				BC33954E1DC9803A00114D4A /* IngreMaterial.swift in Sources */,
 				BC000BC81DC6DD480086D1FB /* IngrePostCell.swift in Sources */,
 				BC8B0B911DB9BB8700F5FC0A /* UIButton+Common.swift in Sources */,
 				BC6055081DBF09E400082746 /* IngreLikeCell.swift in Sources */,
 				BC49724F1DBDACE6004230CB /* KTCDownloader.swift in Sources */,
+				BC3642271DC839720032BAE2 /* KTCSegCtrl.swift in Sources */,
+				BC3642241DC8215A0032BAE2 /* IngreTopicCell.swift in Sources */,
 				BC4972511DBDB6CC004230CB /* IngreRecommondModel.swift in Sources */,
 				BC8B06A41DB9A91700F5FC0A /* BaseViewController.swift in Sources */,
 				BC8B0B931DB9C38D00F5FC0A /* Const.swift in Sources */,

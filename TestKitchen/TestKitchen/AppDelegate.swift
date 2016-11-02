@@ -18,6 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
+        //修改导航的背景图片
+        (UINavigationBar.appearance()).setBackgroundImage(UIImage(named: "navBar"), forBarMetrics: .Default)
+        
+        
         let mainCtrl = MainTabBarViewController()
         window?.rootViewController = mainCtrl
         
