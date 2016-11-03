@@ -44,6 +44,9 @@ class IngredientViewController: BaseViewController {
         
         //下载首页食材的数据
         downloadRecommendMaterial()
+        
+        //下载首页分类的数据
+        downloadCategoryData()
     }
     
     
@@ -134,7 +137,15 @@ class IngredientViewController: BaseViewController {
     func searchAction() {
         print("搜索")
     }
-    
+    //下载首页分类的数据
+    func downloadCategoryData() {
+       
+        
+        let downloader = KTCDownloader()
+        downloader.delegate = self
+        downloader.downloadType = .IngreCategory
+        downloader.postWithUrl(kHostUrl, params: ["methodName":"CategoryIndex"])
+    }
     
     //下载首页的推荐数据
     func downloadRecommendData() {
@@ -169,16 +180,6 @@ class IngredientViewController: BaseViewController {
     }
     
     
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
-     }
-     */
-    
 }
 
 
@@ -201,9 +202,9 @@ extension IngredientViewController: KTCDownloaderDelegate {
                 recommendView.model = recommendModel
                 
                 //3.点击食材的推荐页面的某一个部分，跳转到后面的界面
-                recommendView.jumpClosure = {
+                recommendView.jumpClosure = { [unowned self]
                     jumpUrl in
-                    print(jumpUrl)
+                    self.handleClickEvent(jumpUrl)
                 }
                 
             }
@@ -212,15 +213,25 @@ extension IngredientViewController: KTCDownloaderDelegate {
             if let tmpData = data {
                 let materialModel = IngreMaterial.parseData(tmpData)
                 materialView!.model = materialModel
-//                IngreMaterialView.jumpClosure = {
-//                    jumpUrl in
-//                    print(jumpUrl)
-//                }
+                materialView!.jumpClosure = { [unowned self]
+                    jumpUrl in
+                    self.handleClickEvent(jumpUrl)
+                }
 
             }
             
             
         } else if downloader.downloadType == .IngreCategory {
+            if let tmpData = data {
+                let materialModel = IngreMaterial.parseData(tmpData)
+                categoryView!.model = materialModel
+                categoryView!.jumpClosure = { [unowned self]
+                    jumpUrl in
+                    self.handleClickEvent(jumpUrl)
+                }
+                
+            }
+            
             
         }
         
@@ -231,6 +242,13 @@ extension IngredientViewController: KTCDownloaderDelegate {
         
         
     }
+    
+    //处理点击事件的方法
+    func handleClickEvent(urlString: String) {
+        IngreService.handleEvent(urlString, onViewController: self)
+        
+    }
+    
     
 }
 

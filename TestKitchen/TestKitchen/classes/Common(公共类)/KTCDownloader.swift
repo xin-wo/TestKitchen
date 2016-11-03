@@ -25,6 +25,8 @@ enum KTCDownLoadType: Int {
     case IngreRecommend //首页食材的推荐
     case IngreMaterial  //首页食材的食材
     case IngreCategory  //首页食材的分类
+    case IngreFoodCourseDetail //食材课程的详情
+    case IngreFoodCourseComment //食材课程的评论
 }
 
 
