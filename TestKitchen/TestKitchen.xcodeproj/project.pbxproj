@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8A0F790EEA55DC13A77B556F /* Pods_TestKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3B24138A4EC94859A22767 /* Pods_TestKitchen.framework */; };
-		BC000BC41DC6D0E70086D1FB /* IngreTalnetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC000BC21DC6D0E70086D1FB /* IngreTalnetCell.swift */; };
-		BC000BC51DC6D0E70086D1FB /* IngreTalnetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC000BC31DC6D0E70086D1FB /* IngreTalnetCell.xib */; };
-		BC000BC81DC6DD480086D1FB /* IngrePostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC000BC61DC6DD480086D1FB /* IngrePostCell.swift */; };
-		BC000BC91DC6DD480086D1FB /* IngrePostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC000BC71DC6DD480086D1FB /* IngrePostCell.xib */; };
 		BC12F1861DCAD2BD00357C36 /* IngreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC12F1851DCAD2BD00357C36 /* IngreService.swift */; };
 		BC12F1881DCAD34A00357C36 /* FoodCourseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC12F1871DCAD34A00357C36 /* FoodCourseService.swift */; };
 		BC12F18A1DCAD3C400357C36 /* WebViewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC12F1891DCAD3C400357C36 /* WebViewService.swift */; };
@@ -27,8 +23,6 @@
 		BC12F19F1DCAD49500357C36 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC12F19E1DCAD49500357C36 /* PostService.swift */; };
 		BC12F1A11DCAD4A700357C36 /* SubjectListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC12F1A01DCAD4A700357C36 /* SubjectListService.swift */; };
 		BC12F1A31DCAD4B500357C36 /* MaterialService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC12F1A21DCAD4B500357C36 /* MaterialService.swift */; };
-		BC12F1A51DCADDF600357C36 /* FoodCourseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC12F1A41DCADDF600357C36 /* FoodCourseController.swift */; };
-		BC12F1A71DCAE1F800357C36 /* FoodCourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC12F1A61DCAE1F800357C36 /* FoodCourseDetail.swift */; };
 		BC33954E1DC9803A00114D4A /* IngreMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33954D1DC9803A00114D4A /* IngreMaterial.swift */; };
 		BC3395501DC990B600114D4A /* IngreMaterialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33954F1DC990B600114D4A /* IngreMaterialCell.swift */; };
 		BC3514851DC2F034000A978C /* CodeResources in Resources */ = {isa = PBXBuildFile; fileRef = BC3512301DC2F032000A978C /* CodeResources */; };
@@ -620,22 +614,44 @@
 		BC3516CF1DC2F034000A978C /* 难易度@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3514821DC2F034000A978C /* 难易度@3x.png */; };
 		BC3516D01DC2F034000A978C /* 首页更多@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3514831DC2F034000A978C /* 首页更多@2x.png */; };
 		BC3516D11DC2F034000A978C /* 首页更多@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3514841DC2F034000A978C /* 首页更多@3x.png */; };
-		BC3516D41DC2F190000A978C /* IngreSceneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3516D21DC2F190000A978C /* IngreSceneCell.swift */; };
-		BC3516D51DC2F190000A978C /* IngreSceneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC3516D31DC2F190000A978C /* IngreSceneCell.xib */; };
-		BC3642241DC8215A0032BAE2 /* IngreTopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3642221DC8215A0032BAE2 /* IngreTopicCell.swift */; };
-		BC3642251DC8215A0032BAE2 /* IngreTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC3642231DC8215A0032BAE2 /* IngreTopicCell.xib */; };
+		BC351FD11DCC17E5003FC1B2 /* FoodCourseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351FB51DCC17E5003FC1B2 /* FoodCourseController.swift */; };
+		BC351FD21DCC17E5003FC1B2 /* FoodCourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351FB71DCC17E5003FC1B2 /* FoodCourseDetail.swift */; };
+		BC351FD31DCC17E5003FC1B2 /* IngreBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351FBD1DCC17E5003FC1B2 /* IngreBannerCell.swift */; };
+		BC351FD41DCC17E5003FC1B2 /* IngreBannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC351FBE1DCC17E5003FC1B2 /* IngreBannerCell.xib */; };
+		BC351FD51DCC17E5003FC1B2 /* IngreHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351FBF1DCC17E5003FC1B2 /* IngreHeaderView.swift */; };
+		BC351FD61DCC17E5003FC1B2 /* IngreLikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351FC01DCC17E5003FC1B2 /* IngreLikeCell.swift */; };
+		BC351FD71DCC17E5003FC1B2 /* IngreLikeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC351FC11DCC17E5003FC1B2 /* IngreLikeCell.xib */; };
+		BC351FD81DCC17E5003FC1B2 /* IngreLikeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351FC21DCC17E5003FC1B2 /* IngreLikeHeaderView.swift */; };
+		BC351FD91DCC17E5003FC1B2 /* IngrePostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351FC31DCC17E5003FC1B2 /* IngrePostCell.swift */; };
+		BC351FDA1DCC17E5003FC1B2 /* IngrePostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC351FC41DCC17E5003FC1B2 /* IngrePostCell.xib */; };
+		BC351FDB1DCC17E5003FC1B2 /* IngreRedPacketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351FC51DCC17E5003FC1B2 /* IngreRedPacketCell.swift */; };
+		BC351FDC1DCC17E5003FC1B2 /* IngreRedPacketCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC351FC61DCC17E5003FC1B2 /* IngreRedPacketCell.xib */; };
+		BC351FDD1DCC17E5003FC1B2 /* IngreSceneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351FC71DCC17E5003FC1B2 /* IngreSceneCell.swift */; };
+		BC351FDE1DCC17E5003FC1B2 /* IngreSceneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC351FC81DCC17E5003FC1B2 /* IngreSceneCell.xib */; };
+		BC351FDF1DCC17E5003FC1B2 /* IngreSceneListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351FC91DCC17E5003FC1B2 /* IngreSceneListCell.swift */; };
+		BC351FE01DCC17E5003FC1B2 /* IngreSceneListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC351FCA1DCC17E5003FC1B2 /* IngreSceneListCell.xib */; };
+		BC351FE11DCC17E5003FC1B2 /* IngreTalnetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351FCB1DCC17E5003FC1B2 /* IngreTalnetCell.swift */; };
+		BC351FE21DCC17E5003FC1B2 /* IngreTalnetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC351FCC1DCC17E5003FC1B2 /* IngreTalnetCell.xib */; };
+		BC351FE31DCC17E5003FC1B2 /* IngreTodayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351FCD1DCC17E5003FC1B2 /* IngreTodayCell.swift */; };
+		BC351FE41DCC17E5003FC1B2 /* IngreTodayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC351FCE1DCC17E5003FC1B2 /* IngreTodayCell.xib */; };
+		BC351FE51DCC17E5003FC1B2 /* IngreTopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351FCF1DCC17E5003FC1B2 /* IngreTopicCell.swift */; };
+		BC351FE61DCC17E5003FC1B2 /* IngreTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC351FD01DCC17E5003FC1B2 /* IngreTopicCell.xib */; };
+		BC351FE91DCC1813003FC1B2 /* FCVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351FE71DCC1813003FC1B2 /* FCVideoCell.swift */; };
+		BC351FEA1DCC1813003FC1B2 /* FCVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC351FE81DCC1813003FC1B2 /* FCVideoCell.xib */; };
+		BC351FED1DCC24B0003FC1B2 /* FCSubjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351FEB1DCC24B0003FC1B2 /* FCSubjectCell.swift */; };
+		BC351FEE1DCC24B0003FC1B2 /* FCSubjectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC351FEC1DCC24B0003FC1B2 /* FCSubjectCell.xib */; };
+		BC351FF01DCC2F1A003FC1B2 /* FCSerialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351FEF1DCC2F1A003FC1B2 /* FCSerialCell.swift */; };
+		BC351FF21DCC5E03003FC1B2 /* FoodCourseComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351FF11DCC5E03003FC1B2 /* FoodCourseComment.swift */; };
+		BC351FF51DCC6417003FC1B2 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351FF31DCC6417003FC1B2 /* CommentCell.swift */; };
+		BC351FF61DCC6417003FC1B2 /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC351FF41DCC6417003FC1B2 /* CommentCell.xib */; };
+		BC351FF81DCC7516003FC1B2 /* KTCTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351FF71DCC7516003FC1B2 /* KTCTabViewController.swift */; };
+		BC351FFA1DCC7E4E003FC1B2 /* FCCommentHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351FF91DCC7E4E003FC1B2 /* FCCommentHeader.swift */; };
+		BC351FFC1DCC7E94003FC1B2 /* FCCommentHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC351FFB1DCC7E94003FC1B2 /* FCCommentHeader.xib */; };
 		BC3642271DC839720032BAE2 /* KTCSegCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3642261DC839720032BAE2 /* KTCSegCtrl.swift */; };
 		BC3642291DC842890032BAE2 /* IngreMaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3642281DC842890032BAE2 /* IngreMaterialView.swift */; };
 		BC49724F1DBDACE6004230CB /* KTCDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC49724E1DBDACE6004230CB /* KTCDownloader.swift */; };
 		BC4972511DBDB6CC004230CB /* IngreRecommondModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4972501DBDB6CC004230CB /* IngreRecommondModel.swift */; };
 		BC6055011DBEED3F00082746 /* IngreRecomendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6055001DBEED3F00082746 /* IngreRecomendView.swift */; };
-		BC6055041DBEF39D00082746 /* IngreBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6055021DBEF39D00082746 /* IngreBannerCell.swift */; };
-		BC6055051DBEF39D00082746 /* IngreBannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC6055031DBEF39D00082746 /* IngreBannerCell.xib */; };
-		BC6055081DBF09E400082746 /* IngreLikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6055061DBF09E400082746 /* IngreLikeCell.swift */; };
-		BC6055091DBF09E400082746 /* IngreLikeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC6055071DBF09E400082746 /* IngreLikeCell.xib */; };
-		BC81C9321DC0537A00BEAC9C /* IngreLikeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC81C9311DC0537A00BEAC9C /* IngreLikeHeaderView.swift */; };
-		BC81C9351DC0598100BEAC9C /* IngreRedPacketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC81C9331DC0598100BEAC9C /* IngreRedPacketCell.swift */; };
-		BC81C9361DC0598100BEAC9C /* IngreRedPacketCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC81C9341DC0598100BEAC9C /* IngreRedPacketCell.xib */; };
 		BC8B064D1DB9A51000F5FC0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8B064C1DB9A51000F5FC0A /* AppDelegate.swift */; };
 		BC8B064F1DB9A51000F5FC0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8B064E1DB9A51000F5FC0A /* ViewController.swift */; };
 		BC8B06521DB9A51000F5FC0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8B06501DB9A51000F5FC0A /* Main.storyboard */; };
@@ -654,12 +670,7 @@
 		BC8B0B8F1DB9BA0300F5FC0A /* UILabel+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8B0B8E1DB9BA0300F5FC0A /* UILabel+Common.swift */; };
 		BC8B0B911DB9BB8700F5FC0A /* UIButton+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8B0B901DB9BB8700F5FC0A /* UIButton+Common.swift */; };
 		BC8B0B931DB9C38D00F5FC0A /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8B0B921DB9C38D00F5FC0A /* Const.swift */; };
-		BCE339F61DC300DD006D1A38 /* IngreSceneListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE339F41DC300DD006D1A38 /* IngreSceneListCell.swift */; };
-		BCE339F71DC300DD006D1A38 /* IngreSceneListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE339F51DC300DD006D1A38 /* IngreSceneListCell.xib */; };
 		BCF72BA01DBD9BFA00A5A321 /* Controllers.json in Resources */ = {isa = PBXBuildFile; fileRef = BCF72B9F1DBD9BFA00A5A321 /* Controllers.json */; };
-		BCF993911DC19561002820F3 /* IngreTodayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF9938F1DC19561002820F3 /* IngreTodayCell.swift */; };
-		BCF993921DC19561002820F3 /* IngreTodayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF993901DC19561002820F3 /* IngreTodayCell.xib */; };
-		BCF993941DC1AF69002820F3 /* IngreHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF993931DC1AF69002820F3 /* IngreHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -683,10 +694,6 @@
 		16947CF4AAECB5BDA899CFBC /* Pods-TestKitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen.release.xcconfig"; sourceTree = "<group>"; };
 		5C3B24138A4EC94859A22767 /* Pods_TestKitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4FB3D58056643BD87BD14B /* Pods-TestKitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen.debug.xcconfig"; sourceTree = "<group>"; };
-		BC000BC21DC6D0E70086D1FB /* IngreTalnetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreTalnetCell.swift; sourceTree = "<group>"; };
-		BC000BC31DC6D0E70086D1FB /* IngreTalnetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreTalnetCell.xib; sourceTree = "<group>"; };
-		BC000BC61DC6DD480086D1FB /* IngrePostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngrePostCell.swift; sourceTree = "<group>"; };
-		BC000BC71DC6DD480086D1FB /* IngrePostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngrePostCell.xib; sourceTree = "<group>"; };
 		BC12F1851DCAD2BD00357C36 /* IngreService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreService.swift; sourceTree = "<group>"; };
 		BC12F1871DCAD34A00357C36 /* FoodCourseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCourseService.swift; sourceTree = "<group>"; };
 		BC12F1891DCAD3C400357C36 /* WebViewService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewService.swift; sourceTree = "<group>"; };
@@ -702,8 +709,6 @@
 		BC12F19E1DCAD49500357C36 /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		BC12F1A01DCAD4A700357C36 /* SubjectListService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectListService.swift; sourceTree = "<group>"; };
 		BC12F1A21DCAD4B500357C36 /* MaterialService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialService.swift; sourceTree = "<group>"; };
-		BC12F1A41DCADDF600357C36 /* FoodCourseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCourseController.swift; sourceTree = "<group>"; };
-		BC12F1A61DCAE1F800357C36 /* FoodCourseDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCourseDetail.swift; sourceTree = "<group>"; };
 		BC33954D1DC9803A00114D4A /* IngreMaterial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreMaterial.swift; sourceTree = "<group>"; };
 		BC33954F1DC990B600114D4A /* IngreMaterialCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreMaterialCell.swift; sourceTree = "<group>"; };
 		BC3512301DC2F032000A978C /* CodeResources */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CodeResources; sourceTree = "<group>"; };
@@ -1299,22 +1304,44 @@
 		BC3514821DC2F034000A978C /* 难易度@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "难易度@3x.png"; sourceTree = "<group>"; };
 		BC3514831DC2F034000A978C /* 首页更多@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页更多@2x.png"; sourceTree = "<group>"; };
 		BC3514841DC2F034000A978C /* 首页更多@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页更多@3x.png"; sourceTree = "<group>"; };
-		BC3516D21DC2F190000A978C /* IngreSceneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreSceneCell.swift; sourceTree = "<group>"; };
-		BC3516D31DC2F190000A978C /* IngreSceneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreSceneCell.xib; sourceTree = "<group>"; };
-		BC3642221DC8215A0032BAE2 /* IngreTopicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreTopicCell.swift; sourceTree = "<group>"; };
-		BC3642231DC8215A0032BAE2 /* IngreTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreTopicCell.xib; sourceTree = "<group>"; };
+		BC351FB51DCC17E5003FC1B2 /* FoodCourseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCourseController.swift; sourceTree = "<group>"; };
+		BC351FB71DCC17E5003FC1B2 /* FoodCourseDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCourseDetail.swift; sourceTree = "<group>"; };
+		BC351FBD1DCC17E5003FC1B2 /* IngreBannerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreBannerCell.swift; sourceTree = "<group>"; };
+		BC351FBE1DCC17E5003FC1B2 /* IngreBannerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreBannerCell.xib; sourceTree = "<group>"; };
+		BC351FBF1DCC17E5003FC1B2 /* IngreHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreHeaderView.swift; sourceTree = "<group>"; };
+		BC351FC01DCC17E5003FC1B2 /* IngreLikeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreLikeCell.swift; sourceTree = "<group>"; };
+		BC351FC11DCC17E5003FC1B2 /* IngreLikeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreLikeCell.xib; sourceTree = "<group>"; };
+		BC351FC21DCC17E5003FC1B2 /* IngreLikeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreLikeHeaderView.swift; sourceTree = "<group>"; };
+		BC351FC31DCC17E5003FC1B2 /* IngrePostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngrePostCell.swift; sourceTree = "<group>"; };
+		BC351FC41DCC17E5003FC1B2 /* IngrePostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngrePostCell.xib; sourceTree = "<group>"; };
+		BC351FC51DCC17E5003FC1B2 /* IngreRedPacketCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreRedPacketCell.swift; sourceTree = "<group>"; };
+		BC351FC61DCC17E5003FC1B2 /* IngreRedPacketCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreRedPacketCell.xib; sourceTree = "<group>"; };
+		BC351FC71DCC17E5003FC1B2 /* IngreSceneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreSceneCell.swift; sourceTree = "<group>"; };
+		BC351FC81DCC17E5003FC1B2 /* IngreSceneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreSceneCell.xib; sourceTree = "<group>"; };
+		BC351FC91DCC17E5003FC1B2 /* IngreSceneListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreSceneListCell.swift; sourceTree = "<group>"; };
+		BC351FCA1DCC17E5003FC1B2 /* IngreSceneListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreSceneListCell.xib; sourceTree = "<group>"; };
+		BC351FCB1DCC17E5003FC1B2 /* IngreTalnetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreTalnetCell.swift; sourceTree = "<group>"; };
+		BC351FCC1DCC17E5003FC1B2 /* IngreTalnetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreTalnetCell.xib; sourceTree = "<group>"; };
+		BC351FCD1DCC17E5003FC1B2 /* IngreTodayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreTodayCell.swift; sourceTree = "<group>"; };
+		BC351FCE1DCC17E5003FC1B2 /* IngreTodayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreTodayCell.xib; sourceTree = "<group>"; };
+		BC351FCF1DCC17E5003FC1B2 /* IngreTopicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreTopicCell.swift; sourceTree = "<group>"; };
+		BC351FD01DCC17E5003FC1B2 /* IngreTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreTopicCell.xib; sourceTree = "<group>"; };
+		BC351FE71DCC1813003FC1B2 /* FCVideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCVideoCell.swift; sourceTree = "<group>"; };
+		BC351FE81DCC1813003FC1B2 /* FCVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FCVideoCell.xib; sourceTree = "<group>"; };
+		BC351FEB1DCC24B0003FC1B2 /* FCSubjectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCSubjectCell.swift; sourceTree = "<group>"; };
+		BC351FEC1DCC24B0003FC1B2 /* FCSubjectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FCSubjectCell.xib; sourceTree = "<group>"; };
+		BC351FEF1DCC2F1A003FC1B2 /* FCSerialCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCSerialCell.swift; sourceTree = "<group>"; };
+		BC351FF11DCC5E03003FC1B2 /* FoodCourseComment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCourseComment.swift; sourceTree = "<group>"; };
+		BC351FF31DCC6417003FC1B2 /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommentCell.swift; path = ../model/CommentCell.swift; sourceTree = "<group>"; };
+		BC351FF41DCC6417003FC1B2 /* CommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CommentCell.xib; path = ../model/CommentCell.xib; sourceTree = "<group>"; };
+		BC351FF71DCC7516003FC1B2 /* KTCTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTCTabViewController.swift; sourceTree = "<group>"; };
+		BC351FF91DCC7E4E003FC1B2 /* FCCommentHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCCommentHeader.swift; sourceTree = "<group>"; };
+		BC351FFB1DCC7E94003FC1B2 /* FCCommentHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FCCommentHeader.xib; sourceTree = "<group>"; };
 		BC3642261DC839720032BAE2 /* KTCSegCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTCSegCtrl.swift; sourceTree = "<group>"; };
 		BC3642281DC842890032BAE2 /* IngreMaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreMaterialView.swift; sourceTree = "<group>"; };
 		BC49724E1DBDACE6004230CB /* KTCDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTCDownloader.swift; sourceTree = "<group>"; };
 		BC4972501DBDB6CC004230CB /* IngreRecommondModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreRecommondModel.swift; sourceTree = "<group>"; };
 		BC6055001DBEED3F00082746 /* IngreRecomendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreRecomendView.swift; sourceTree = "<group>"; };
-		BC6055021DBEF39D00082746 /* IngreBannerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreBannerCell.swift; sourceTree = "<group>"; };
-		BC6055031DBEF39D00082746 /* IngreBannerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreBannerCell.xib; sourceTree = "<group>"; };
-		BC6055061DBF09E400082746 /* IngreLikeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreLikeCell.swift; sourceTree = "<group>"; };
-		BC6055071DBF09E400082746 /* IngreLikeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreLikeCell.xib; sourceTree = "<group>"; };
-		BC81C9311DC0537A00BEAC9C /* IngreLikeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreLikeHeaderView.swift; sourceTree = "<group>"; };
-		BC81C9331DC0598100BEAC9C /* IngreRedPacketCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreRedPacketCell.swift; sourceTree = "<group>"; };
-		BC81C9341DC0598100BEAC9C /* IngreRedPacketCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreRedPacketCell.xib; sourceTree = "<group>"; };
 		BC8B06491DB9A51000F5FC0A /* TestKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8B064C1DB9A51000F5FC0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC8B064E1DB9A51000F5FC0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -1339,12 +1366,7 @@
 		BC8B0B8E1DB9BA0300F5FC0A /* UILabel+Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Common.swift"; sourceTree = "<group>"; };
 		BC8B0B901DB9BB8700F5FC0A /* UIButton+Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Common.swift"; sourceTree = "<group>"; };
 		BC8B0B921DB9C38D00F5FC0A /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
-		BCE339F41DC300DD006D1A38 /* IngreSceneListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreSceneListCell.swift; sourceTree = "<group>"; };
-		BCE339F51DC300DD006D1A38 /* IngreSceneListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreSceneListCell.xib; sourceTree = "<group>"; };
 		BCF72B9F1DBD9BFA00A5A321 /* Controllers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Controllers.json; sourceTree = "<group>"; };
-		BCF9938F1DC19561002820F3 /* IngreTodayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreTodayCell.swift; sourceTree = "<group>"; };
-		BCF993901DC19561002820F3 /* IngreTodayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreTodayCell.xib; sourceTree = "<group>"; };
-		BCF993931DC1AF69002820F3 /* IngreHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2096,6 +2118,100 @@
 			path = SC_Info;
 			sourceTree = "<group>";
 		};
+		BC351FB31DCC17E5003FC1B2 /* foodCourse */ = {
+			isa = PBXGroup;
+			children = (
+				BC351FB41DCC17E5003FC1B2 /* controller */,
+				BC351FB61DCC17E5003FC1B2 /* model */,
+				BC351FB81DCC17E5003FC1B2 /* view */,
+			);
+			path = foodCourse;
+			sourceTree = "<group>";
+		};
+		BC351FB41DCC17E5003FC1B2 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC351FB51DCC17E5003FC1B2 /* FoodCourseController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		BC351FB61DCC17E5003FC1B2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BC351FB71DCC17E5003FC1B2 /* FoodCourseDetail.swift */,
+				BC351FF11DCC5E03003FC1B2 /* FoodCourseComment.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BC351FB81DCC17E5003FC1B2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BC351FF31DCC6417003FC1B2 /* CommentCell.swift */,
+				BC351FF41DCC6417003FC1B2 /* CommentCell.xib */,
+				BC351FE71DCC1813003FC1B2 /* FCVideoCell.swift */,
+				BC351FE81DCC1813003FC1B2 /* FCVideoCell.xib */,
+				BC351FEB1DCC24B0003FC1B2 /* FCSubjectCell.swift */,
+				BC351FEC1DCC24B0003FC1B2 /* FCSubjectCell.xib */,
+				BC351FEF1DCC2F1A003FC1B2 /* FCSerialCell.swift */,
+				BC351FF91DCC7E4E003FC1B2 /* FCCommentHeader.swift */,
+				BC351FFB1DCC7E94003FC1B2 /* FCCommentHeader.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		BC351FB91DCC17E5003FC1B2 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				BC351FBA1DCC17E5003FC1B2 /* Controller */,
+				BC351FBB1DCC17E5003FC1B2 /* model */,
+				BC351FBC1DCC17E5003FC1B2 /* view */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		BC351FBA1DCC17E5003FC1B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC351FBB1DCC17E5003FC1B2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BC351FBC1DCC17E5003FC1B2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BC351FBD1DCC17E5003FC1B2 /* IngreBannerCell.swift */,
+				BC351FBE1DCC17E5003FC1B2 /* IngreBannerCell.xib */,
+				BC351FBF1DCC17E5003FC1B2 /* IngreHeaderView.swift */,
+				BC351FC01DCC17E5003FC1B2 /* IngreLikeCell.swift */,
+				BC351FC11DCC17E5003FC1B2 /* IngreLikeCell.xib */,
+				BC351FC21DCC17E5003FC1B2 /* IngreLikeHeaderView.swift */,
+				BC351FC31DCC17E5003FC1B2 /* IngrePostCell.swift */,
+				BC351FC41DCC17E5003FC1B2 /* IngrePostCell.xib */,
+				BC351FC51DCC17E5003FC1B2 /* IngreRedPacketCell.swift */,
+				BC351FC61DCC17E5003FC1B2 /* IngreRedPacketCell.xib */,
+				BC351FC71DCC17E5003FC1B2 /* IngreSceneCell.swift */,
+				BC351FC81DCC17E5003FC1B2 /* IngreSceneCell.xib */,
+				BC351FC91DCC17E5003FC1B2 /* IngreSceneListCell.swift */,
+				BC351FCA1DCC17E5003FC1B2 /* IngreSceneListCell.xib */,
+				BC351FCB1DCC17E5003FC1B2 /* IngreTalnetCell.swift */,
+				BC351FCC1DCC17E5003FC1B2 /* IngreTalnetCell.xib */,
+				BC351FCD1DCC17E5003FC1B2 /* IngreTodayCell.swift */,
+				BC351FCE1DCC17E5003FC1B2 /* IngreTodayCell.xib */,
+				BC351FCF1DCC17E5003FC1B2 /* IngreTopicCell.swift */,
+				BC351FD01DCC17E5003FC1B2 /* IngreTopicCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		BC8B06401DB9A51000F5FC0A = {
 			isa = PBXGroup;
 			children = (
@@ -2176,6 +2292,7 @@
 				BCF72B9F1DBD9BFA00A5A321 /* Controllers.json */,
 				BC49724E1DBDACE6004230CB /* KTCDownloader.swift */,
 				BC3642261DC839720032BAE2 /* KTCSegCtrl.swift */,
+				BC351FF71DCC7516003FC1B2 /* KTCTabViewController.swift */,
 			);
 			path = "Common(公共类)";
 			sourceTree = "<group>";
@@ -2374,54 +2491,10 @@
 		BC8B06941DB9A83000F5FC0A /* recommend */ = {
 			isa = PBXGroup;
 			children = (
-				BC8B06951DB9A83000F5FC0A /* Controller */,
-				BC8B06961DB9A83000F5FC0A /* model */,
-				BC8B06971DB9A83000F5FC0A /* view */,
+				BC351FB31DCC17E5003FC1B2 /* foodCourse */,
+				BC351FB91DCC17E5003FC1B2 /* main */,
 			);
 			path = recommend;
-			sourceTree = "<group>";
-		};
-		BC8B06951DB9A83000F5FC0A /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				BC12F1A41DCADDF600357C36 /* FoodCourseController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		BC8B06961DB9A83000F5FC0A /* model */ = {
-			isa = PBXGroup;
-			children = (
-				BC12F1A61DCAE1F800357C36 /* FoodCourseDetail.swift */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		BC8B06971DB9A83000F5FC0A /* view */ = {
-			isa = PBXGroup;
-			children = (
-				BC3516D21DC2F190000A978C /* IngreSceneCell.swift */,
-				BC3516D31DC2F190000A978C /* IngreSceneCell.xib */,
-				BC6055021DBEF39D00082746 /* IngreBannerCell.swift */,
-				BC6055031DBEF39D00082746 /* IngreBannerCell.xib */,
-				BC6055061DBF09E400082746 /* IngreLikeCell.swift */,
-				BC6055071DBF09E400082746 /* IngreLikeCell.xib */,
-				BC81C9311DC0537A00BEAC9C /* IngreLikeHeaderView.swift */,
-				BC81C9331DC0598100BEAC9C /* IngreRedPacketCell.swift */,
-				BC81C9341DC0598100BEAC9C /* IngreRedPacketCell.xib */,
-				BCF9938F1DC19561002820F3 /* IngreTodayCell.swift */,
-				BCF993901DC19561002820F3 /* IngreTodayCell.xib */,
-				BCF993931DC1AF69002820F3 /* IngreHeaderView.swift */,
-				BCE339F41DC300DD006D1A38 /* IngreSceneListCell.swift */,
-				BCE339F51DC300DD006D1A38 /* IngreSceneListCell.xib */,
-				BC000BC21DC6D0E70086D1FB /* IngreTalnetCell.swift */,
-				BC000BC31DC6D0E70086D1FB /* IngreTalnetCell.xib */,
-				BC000BC61DC6DD480086D1FB /* IngrePostCell.swift */,
-				BC000BC71DC6DD480086D1FB /* IngrePostCell.xib */,
-				BC3642221DC8215A0032BAE2 /* IngreTopicCell.swift */,
-				BC3642231DC8215A0032BAE2 /* IngreTopicCell.xib */,
-			);
-			path = view;
 			sourceTree = "<group>";
 		};
 		BC8B06981DB9A83000F5FC0A /* Mall(商城) */ = {
@@ -2655,7 +2728,7 @@
 				BC3515371DC2F034000A978C /* EffectCollectionController~iphone.nib in Resources */,
 				BC3515E71DC2F034000A978C /* RightTableViewCell~iphone.nib in Resources */,
 				BC3515E41DC2F034000A978C /* report_select@3x.png in Resources */,
-				BC000BC51DC6D0E70086D1FB /* IngreTalnetCell.xib in Resources */,
+				BC351FE21DCC17E5003FC1B2 /* IngreTalnetCell.xib in Resources */,
 				BC35149D1DC2F034000A978C /* BasicViewController.nib in Resources */,
 				BC3516BE1DC2F034000A978C /* 启动图1242x2208.png in Resources */,
 				BC3515571DC2F034000A978C /* home_select@3x.png in Resources */,
@@ -2704,6 +2777,7 @@
 				BC35149F1DC2F034000A978C /* bottomPartOfBackground.jpg in Resources */,
 				BC3515DA1DC2F034000A978C /* PushConfig.plist in Resources */,
 				BC3516C61DC2F034000A978C /* 点赞.png in Resources */,
+				BC351FEA1DCC1813003FC1B2 /* FCVideoCell.xib in Resources */,
 				BC3515481DC2F034000A978C /* fooddetailbg_1.png in Resources */,
 				BC3515F11DC2F034000A978C /* scanKuang.png in Resources */,
 				BC3516181DC2F034000A978C /* start_sina@2x.png in Resources */,
@@ -2721,7 +2795,7 @@
 				BC3514921DC2F034000A978C /* AppIcon60x60@2x.png in Resources */,
 				BC3514C71DC2F034000A978C /* chat_sender_audio_playing_001@2x.png in Resources */,
 				BC3515AD1DC2F034000A978C /* NameUpdateViewController~iphone.nib in Resources */,
-				BC3516D51DC2F190000A978C /* IngreSceneCell.xib in Resources */,
+				BC351FDE1DCC17E5003FC1B2 /* IngreSceneCell.xib in Resources */,
 				BC35153B1DC2F034000A978C /* faceDelete@2x.png in Resources */,
 				BC3514CF1DC2F034000A978C /* chat_sender_bg@2x.png in Resources */,
 				BC35154F1DC2F034000A978C /* goDig@3x.png in Resources */,
@@ -2763,10 +2837,11 @@
 				BC3515D01DC2F034000A978C /* popBackImage@2x.png in Resources */,
 				BC35152D1DC2F034000A978C /* DetailPlayView~iphone.nib in Resources */,
 				BC3514961DC2F034000A978C /* ArrowRight@3x.png in Resources */,
+				BC351FDC1DCC17E5003FC1B2 /* IngreRedPacketCell.xib in Resources */,
 				BC3514C91DC2F034000A978C /* chat_sender_audio_playing_002@2x.png in Resources */,
 				BC3515291DC2F034000A978C /* DefaultView~iphone.nib in Resources */,
+				BC351FD41DCC17E5003FC1B2 /* IngreBannerCell.xib in Resources */,
 				BC3514A31DC2F034000A978C /* call_out.png in Resources */,
-				BC81C9361DC0598100BEAC9C /* IngreRedPacketCell.xib in Resources */,
 				BC3516401DC2F034000A978C /* UMSCommentDetailController.nib in Resources */,
 				BC3516621DC2F034000A978C /* video_volume_bg@2x.png in Resources */,
 				BC3515EE1DC2F034000A978C /* PocketKitchen4.02.sinf in Resources */,
@@ -2878,6 +2953,7 @@
 				BC3515451DC2F034000A978C /* FoodCourseHeadView~iphone.nib in Resources */,
 				BC3514881DC2F034000A978C /* agree@3x.png in Resources */,
 				BC3514CE1DC2F034000A978C /* chat_sender_bg.png in Resources */,
+				BC351FF61DCC6417003FC1B2 /* CommentCell.xib in Resources */,
 				BC3516221DC2F034000A978C /* termSelected@2x.png in Resources */,
 				BC3514F71DC2F034000A978C /* chatBar_more_photo.png in Resources */,
 				BC3516751DC2F034000A978C /* VoiceSearchFeedback009.png in Resources */,
@@ -2889,7 +2965,6 @@
 				BC3514DA1DC2F034000A978C /* chatBar_colorMore_videoCall@2x.png in Resources */,
 				BC3515861DC2F034000A978C /* love@3x.png in Resources */,
 				BC35152B1DC2F034000A978C /* detailbg.png in Resources */,
-				BCF993921DC19561002820F3 /* IngreTodayCell.xib in Resources */,
 				BC3515101DC2F034000A978C /* Click3@3x.png in Resources */,
 				BC35161B1DC2F034000A978C /* stop.png in Resources */,
 				BC3514BD1DC2F034000A978C /* chat_receiver_audio_playing002@2x.png in Resources */,
@@ -2919,8 +2994,7 @@
 				BC3516211DC2F034000A978C /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				BC3516C01DC2F034000A978C /* 大小@3x.png in Resources */,
 				BC35158D1DC2F034000A978C /* loved@2x.png in Resources */,
-				BCE339F71DC300DD006D1A38 /* IngreSceneListCell.xib in Resources */,
-				BC6055051DBEF39D00082746 /* IngreBannerCell.xib in Resources */,
+				BC351FE01DCC17E5003FC1B2 /* IngreSceneListCell.xib in Resources */,
 				BC3515E51DC2F034000A978C /* RightListView~iphone.nib in Resources */,
 				BC3514D71DC2F034000A978C /* chatBar_colorMore_photo@2x.png in Resources */,
 				BC35149E1DC2F034000A978C /* BottomCustomView~iphone.nib in Resources */,
@@ -2936,6 +3010,7 @@
 				BC3516941DC2F034000A978C /* watermark5.png in Resources */,
 				BC35150D1DC2F034000A978C /* Click2@2x.png in Resources */,
 				BC3515211DC2F034000A978C /* community_normal@3x.png in Resources */,
+				BC351FFC1DCC7E94003FC1B2 /* FCCommentHeader.xib in Resources */,
 				BC3516371DC2F034000A978C /* Ui05.png in Resources */,
 				BC3515C61DC2F034000A978C /* play-A@2x.png in Resources */,
 				BC3514AB1DC2F034000A978C /* callBg@2x.png in Resources */,
@@ -2962,6 +3037,7 @@
 				BC3516961DC2F034000A978C /* watermark7.png in Resources */,
 				BC3515711DC2F034000A978C /* imageDownloadFail@2x.png in Resources */,
 				BC3516CA1DC2F034000A978C /* 评论@3x.png in Resources */,
+				BC351FD71DCC17E5003FC1B2 /* IngreLikeCell.xib in Resources */,
 				BC3515FA1DC2F034000A978C /* searchBg@3x.png in Resources */,
 				BC35158E1DC2F034000A978C /* loved@3x.png in Resources */,
 				BC3516C51DC2F034000A978C /* 标签.png in Resources */,
@@ -3007,6 +3083,7 @@
 				BC3515931DC2F034000A978C /* material_guide_guide9.png in Resources */,
 				BC3516611DC2F034000A978C /* video_tips@2x.png in Resources */,
 				BC35167E1DC2F034000A978C /* VoiceSearchFeedback013@2x.png in Resources */,
+				BC351FE41DCC17E5003FC1B2 /* IngreTodayCell.xib in Resources */,
 				BC35166B1DC2F034000A978C /* VoiceSearchFeedback004.png in Resources */,
 				BC3515F51DC2F034000A978C /* sdefaultImage.png in Resources */,
 				BC3515BE1DC2F034000A978C /* okBtnUnselected@2x.png in Resources */,
@@ -3040,10 +3117,9 @@
 				BC3515761DC2F034000A978C /* InviteQzone.png in Resources */,
 				BC3515E81DC2F034000A978C /* roleSelectionCanceled@2x.png in Resources */,
 				BC3515161DC2F034000A978C /* collect_icon_notpress@3x.png in Resources */,
+				BC351FE61DCC17E5003FC1B2 /* IngreTopicCell.xib in Resources */,
 				BC3515561DC2F034000A978C /* home_select@2x.png in Resources */,
-				BC3642251DC8215A0032BAE2 /* IngreTopicCell.xib in Resources */,
 				BC3516C91DC2F034000A978C /* 评论@2x.png in Resources */,
-				BC000BC91DC6DD480086D1FB /* IngrePostCell.xib in Resources */,
 				BC3516A81DC2F034000A978C /* Winning4@3x.png in Resources */,
 				BC3515F41DC2F034000A978C /* SceneHeadView~iphone.nib in Resources */,
 				BC3514EE1DC2F034000A978C /* chatBar_more_cardSelected@2x.png in Resources */,
@@ -3079,7 +3155,6 @@
 				BC3515EA1DC2F034000A978C /* saoyisao@2x.png in Resources */,
 				BC3515811DC2F034000A978C /* loginBackgroundImage.jpg in Resources */,
 				BC3516931DC2F034000A978C /* watermark4.png in Resources */,
-				BC6055091DBF09E400082746 /* IngreLikeCell.xib in Resources */,
 				BC35159D1DC2F034000A978C /* microphone@2x.png in Resources */,
 				BC3515E61DC2F034000A978C /* rightRuleLine.png in Resources */,
 				BC3516771DC2F034000A978C /* VoiceSearchFeedback010.png in Resources */,
@@ -3109,6 +3184,7 @@
 				BC3515C91DC2F034000A978C /* play_disable@2x.png in Resources */,
 				BC35169A1DC2F034000A978C /* WebViewController.nib in Resources */,
 				BC3514E41DC2F034000A978C /* chatBar_keyboardSelected@2x.png in Resources */,
+				BC351FEE1DCC24B0003FC1B2 /* FCSubjectCell.xib in Resources */,
 				BC3515501DC2F034000A978C /* HeaderView~iphone.nib in Resources */,
 				BC3515C31DC2F034000A978C /* Pigeon.bundle in Resources */,
 				BC3515D51DC2F034000A978C /* praise@2x.png in Resources */,
@@ -3170,6 +3246,7 @@
 				BC3515281DC2F034000A978C /* creat_time@3x.png in Resources */,
 				BC3516521DC2F034000A978C /* UserFigureView~iphone.nib in Resources */,
 				BC3516911DC2F034000A978C /* watermark2.png in Resources */,
+				BC351FDA1DCC17E5003FC1B2 /* IngrePostCell.xib in Resources */,
 				BC3514C31DC2F034000A978C /* chat_receiver_bg@2x.png in Resources */,
 				BC8B06521DB9A51000F5FC0A /* Main.storyboard in Resources */,
 				BC3516871DC2F034000A978C /* VoiceSearchFeedback018.png in Resources */,
@@ -3306,52 +3383,59 @@
 			files = (
 				BC12F18E1DCAD3F400357C36 /* SceneListService.swift in Sources */,
 				BC3642291DC842890032BAE2 /* IngreMaterialView.swift in Sources */,
-				BC81C9321DC0537A00BEAC9C /* IngreLikeHeaderView.swift in Sources */,
-				BC000BC41DC6D0E70086D1FB /* IngreTalnetCell.swift in Sources */,
 				BC12F1901DCAD40700357C36 /* FavouriteService.swift in Sources */,
+				BC351FF51DCC6417003FC1B2 /* CommentCell.swift in Sources */,
+				BC351FE51DCC17E5003FC1B2 /* IngreTopicCell.swift in Sources */,
 				BC12F19A1DCAD46E00357C36 /* TalentService.swift in Sources */,
 				BC12F18C1DCAD3E400357C36 /* FoodmatchService.swift in Sources */,
 				BC8B064F1DB9A51000F5FC0A /* ViewController.swift in Sources */,
-				BC6055041DBEF39D00082746 /* IngreBannerCell.swift in Sources */,
-				BC81C9351DC0598100BEAC9C /* IngreRedPacketCell.swift in Sources */,
 				BC3395501DC990B600114D4A /* IngreMaterialCell.swift in Sources */,
 				BC12F1941DCAD42300357C36 /* DishService.swift in Sources */,
 				BC12F1A31DCAD4B500357C36 /* MaterialService.swift in Sources */,
-				BC12F1A71DCAE1F800357C36 /* FoodCourseDetail.swift in Sources */,
+				BC351FF21DCC5E03003FC1B2 /* FoodCourseComment.swift in Sources */,
 				BC8B0B8D1DB9B98000F5FC0A /* UIView+Common.swift in Sources */,
-				BCF993911DC19561002820F3 /* IngreTodayCell.swift in Sources */,
 				BC8B06AC1DB9AA5800F5FC0A /* FoodClassViewController.swift in Sources */,
 				BC8B06A61DB9A9D500F5FC0A /* IngredientViewController.swift in Sources */,
 				BC8B06B21DB9ABFF00F5FC0A /* MainTabBarViewController.swift in Sources */,
+				BC351FFA1DCC7E4E003FC1B2 /* FCCommentHeader.swift in Sources */,
 				BC8B0B8F1DB9BA0300F5FC0A /* UILabel+Common.swift in Sources */,
-				BCE339F61DC300DD006D1A38 /* IngreSceneListCell.swift in Sources */,
-				BC3516D41DC2F190000A978C /* IngreSceneCell.swift in Sources */,
+				BC351FE91DCC1813003FC1B2 /* FCVideoCell.swift in Sources */,
 				BC12F18A1DCAD3C400357C36 /* WebViewService.swift in Sources */,
 				BC12F1881DCAD34A00357C36 /* FoodCourseService.swift in Sources */,
 				BC8B06AA1DB9AA2100F5FC0A /* MallViewController.swift in Sources */,
 				BC8B064D1DB9A51000F5FC0A /* AppDelegate.swift in Sources */,
+				BC351FD11DCC17E5003FC1B2 /* FoodCourseController.swift in Sources */,
 				BC12F1A11DCAD4A700357C36 /* SubjectListService.swift in Sources */,
 				BC12F1981DCAD45A00357C36 /* RecommendTalnetService.swift in Sources */,
 				BC8B06A81DB9AA0500F5FC0A /* CommunityViewController.swift in Sources */,
+				BC351FE31DCC17E5003FC1B2 /* IngreTodayCell.swift in Sources */,
 				BC12F19D1DCAD48B00357C36 /* BoutiquepostService.swift in Sources */,
+				BC351FD31DCC17E5003FC1B2 /* IngreBannerCell.swift in Sources */,
+				BC351FD61DCC17E5003FC1B2 /* IngreLikeCell.swift in Sources */,
 				BC12F19F1DCAD49500357C36 /* PostService.swift in Sources */,
 				BC8B06AE1DB9AA7500F5FC0A /* ProfileViewController.swift in Sources */,
+				BC351FDB1DCC17E5003FC1B2 /* IngreRedPacketCell.swift in Sources */,
+				BC351FED1DCC24B0003FC1B2 /* FCSubjectCell.swift in Sources */,
 				BC12F1861DCAD2BD00357C36 /* IngreService.swift in Sources */,
 				BC33954E1DC9803A00114D4A /* IngreMaterial.swift in Sources */,
-				BC000BC81DC6DD480086D1FB /* IngrePostCell.swift in Sources */,
 				BC8B0B911DB9BB8700F5FC0A /* UIButton+Common.swift in Sources */,
+				BC351FF81DCC7516003FC1B2 /* KTCTabViewController.swift in Sources */,
+				BC351FDF1DCC17E5003FC1B2 /* IngreSceneListCell.swift in Sources */,
 				BC12F1961DCAD43300357C36 /* VideoService.swift in Sources */,
-				BC6055081DBF09E400082746 /* IngreLikeCell.swift in Sources */,
+				BC351FD91DCC17E5003FC1B2 /* IngrePostCell.swift in Sources */,
 				BC49724F1DBDACE6004230CB /* KTCDownloader.swift in Sources */,
+				BC351FDD1DCC17E5003FC1B2 /* IngreSceneCell.swift in Sources */,
+				BC351FD81DCC17E5003FC1B2 /* IngreLikeHeaderView.swift in Sources */,
 				BC3642271DC839720032BAE2 /* KTCSegCtrl.swift in Sources */,
-				BC3642241DC8215A0032BAE2 /* IngreTopicCell.swift in Sources */,
 				BC4972511DBDB6CC004230CB /* IngreRecommondModel.swift in Sources */,
 				BC8B06A41DB9A91700F5FC0A /* BaseViewController.swift in Sources */,
 				BC8B0B931DB9C38D00F5FC0A /* Const.swift in Sources */,
 				BC6055011DBEED3F00082746 /* IngreRecomendView.swift in Sources */,
+				BC351FD21DCC17E5003FC1B2 /* FoodCourseDetail.swift in Sources */,
+				BC351FE11DCC17E5003FC1B2 /* IngreTalnetCell.swift in Sources */,
+				BC351FD51DCC17E5003FC1B2 /* IngreHeaderView.swift in Sources */,
 				BC12F1921DCAD41900357C36 /* SceneService.swift in Sources */,
-				BC12F1A51DCADDF600357C36 /* FoodCourseController.swift in Sources */,
-				BCF993941DC1AF69002820F3 /* IngreHeaderView.swift in Sources */,
+				BC351FF01DCC2F1A003FC1B2 /* FCSerialCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

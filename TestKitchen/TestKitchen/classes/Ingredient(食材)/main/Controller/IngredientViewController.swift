@@ -47,10 +47,11 @@ class IngredientViewController: BaseViewController {
         
         //下载首页分类的数据
         downloadCategoryData()
+       
+        
     }
     
-    
-    //创建首页视图
+       //创建首页视图
     func createHomePage() {
         
         scrollView = UIScrollView()

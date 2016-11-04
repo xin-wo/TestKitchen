@@ -22,6 +22,13 @@ class IngreService: NSObject {
             }
             
             
+        } else if urlString.hasPrefix("http://video.szzhangchu.com") {
+            //播放视频
+            let array = urlString.componentsSeparatedByString("#")
+            
+            VideoService.playVideo(array.last, onViewController: vc)
+            
+            
         }
         
         
