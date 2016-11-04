@@ -125,7 +125,7 @@ class MainTabBarViewController: UITabBarController {
         
         do {
             //可能抛出异常的代码写这
-            let json = try! NSJSONSerialization.JSONObjectWithData(data!, options: .MutableContainers)
+            let json = try NSJSONSerialization.JSONObjectWithData(data!, options: .MutableContainers)
             if json.isKindOfClass(NSArray) {
                 
                 let tmpArray = json as! Array<Dictionary<String,String>>
